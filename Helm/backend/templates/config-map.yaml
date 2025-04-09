@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend
+  namespace: fusioniq
+data:
+  SPRING_DATASOURCE_URL: "jdbc:mysql://fusioniq-dev.cox0wuaim3oy.us-east-1.rds.amazonaws.com:3306/dev?createDatabaseIfNotExist=true"

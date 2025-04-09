@@ -1,0 +1,7 @@
+deployment:
+  replicas: 1
+image:
+  repository: iamroyalreddy/fusion-backend
+  tag: latest # this will be override by Jenkins
+
+releaseVersion: release-v1.0.0
